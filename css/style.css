@@ -726,6 +726,21 @@ label.error{
     margin-right: 10vmin;
   }
  }
+ @media (min-width: 600px){
+  .header-phone{
+    display: none;
+  }
+  .logo{
+    max-height: 54px;
+    max-width: 10vmin;
+    margin-left: -25px;
+  }
+  .brand-panel{
+    max-width: 10vmin;
+    max-height: 70px;
+  }
+  
+ }
 
 
 
