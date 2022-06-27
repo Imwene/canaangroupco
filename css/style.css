@@ -92,6 +92,7 @@ body{
   font-size: 1em;
   line-height: 1.65;
   color: #747474;
+  margin-left: 10vmin;
 }
 
 ::-webkit-scrollbar{
@@ -709,9 +710,6 @@ label.error{
     display: flex;
     align-items: end;
   }
-  .social-list{
-    display: none;
-  }
   .logo{
     max-height: 54px;
     max-width: 54px;
@@ -720,6 +718,9 @@ label.error{
   .brand-panel{
     max-width: 54px;
     max-height: 70px;
+  }
+  .vertical-panel{
+    max-width: ;
   }
  }
 
@@ -807,7 +808,6 @@ label.error{
   color:#abcb39;
   text-decoration: none;
 }
-
 
 
 /* 2.3 Navbar Desctop */
