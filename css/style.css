@@ -655,7 +655,7 @@ label.error{
 }
 
 .slide-number .current-number{
-  font-size: 8vmin;
+  font-size: 4vmin;
   letter-spacing: 0.1em;
   line-height: 1;
 }
@@ -758,6 +758,11 @@ label.error{
 
 @media (max-height: 850px){
   .vertical-panel-title{
+    display: none;
+  }
+}
+@media (max-height: 850px){
+  .vertical-panel{
     display: none;
   }
 }
