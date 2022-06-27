@@ -694,12 +694,6 @@ label.error{
     display: none;
   }
  }
-
-  @media (min-width: 992px) and (max-width: 1200px){
-  .header-phone{
-    display: none;
-  }
- }
  @media (max-width: 769px){
   .slide-number{
     display: none;
