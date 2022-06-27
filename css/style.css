@@ -700,9 +700,6 @@ label.error{
   }
  }
  @media (max-width: 769px){
-  .brand-panel{
-    max-width: 10%;
-  }
   .slide-number{
     display: none;
   }
