@@ -714,6 +714,7 @@ label.error{
   }
   .logo{
     max-height: 54px;
+    max-width: 54px;
   }
   .brand-panel{
     max-width: 54px;
