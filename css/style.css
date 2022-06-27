@@ -735,6 +735,9 @@ label.error{
     max-width: 10vmin;
     margin-left: -25px;
   }
+  .vertical-panel-title{
+    display: flex;
+  }
   
  }
 
