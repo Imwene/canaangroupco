@@ -707,16 +707,13 @@ label.error{
     display: none;
   }
   .slide-subtitle{
-    font-size: large;
+    font-size: 28px;
     margin-left: 70px;
     display: flex;
     align-items: end;
   }
   .social-list{
     display: none;
-  }
-  .logo{
-    max-width: 10%;
   }
  }
 
