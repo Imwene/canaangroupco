@@ -722,6 +722,9 @@ label.error{
   .vertical-panel{
     max-width: 10vmin;
   }
+  .main-header{
+    margin-right: 10vmin;
+  }
  }
 
 
