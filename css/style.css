@@ -715,6 +715,9 @@ label.error{
   .social-list{
     display: none;
   }
+  .logo{
+    max-width: 10%;
+  }
  }
 
 
