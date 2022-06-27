@@ -699,6 +699,23 @@ label.error{
     display: none;
   }
  }
+ @media (max-width: 769px){
+  .brand-panel{
+    max-width: 10%;
+  }
+  .slide-number{
+    display: none;
+  }
+  .slide-subtitle{
+    font-size: large;
+    margin-left: 70px;
+    display: flex;
+    align-items: end;
+  }
+  .social-list{
+    display: none;
+  }
+ }
 
 
 
