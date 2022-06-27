@@ -612,7 +612,7 @@ label.error{
   z-index: 4;
   left: 0;
   top:0;
-  width: 39.47vmin;
+  width: 20vmin;
   height: 40.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #f6f5f3;
@@ -712,6 +712,12 @@ label.error{
   .social-list{
     display: none;
   }
+  .logo{
+    max-height: 54px;
+  }
+  .brand-panel{
+    max-width: 54px;
+  }
  }
 
 
@@ -723,7 +729,7 @@ label.error{
 .vertical-panel,
 .vertical-panel-content{
   position: absolute;
-  width: 19.735vmin;
+  width: 10vmin;
   left: 0;
   bottom: 0;
   text-align: center;
