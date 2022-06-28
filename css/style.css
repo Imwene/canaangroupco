@@ -92,7 +92,6 @@ body{
   font-size: 1em;
   line-height: 1.65;
   color: #747474;
-  margin-left: 10vmin;
 }
 
 ::-webkit-scrollbar{
@@ -329,7 +328,7 @@ label.error{
 .btn:hover,
 .btn:focus{
   color: #fff;
-  background-color: #181b38;
+  background-color: #000038;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -613,7 +612,7 @@ label.error{
   z-index: 4;
   left: 0;
   top:0;
-  width: 20vmin;
+  width: 39.47vmin;
   height: 40.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #f6f5f3;
@@ -656,7 +655,7 @@ label.error{
 }
 
 .slide-number .current-number{
-  font-size: 4vmin;
+  font-size: 8vmin;
   letter-spacing: 0.1em;
   line-height: 1;
 }
@@ -689,120 +688,17 @@ label.error{
   top:5.9vmin;
 }
 
- /* @media (max-width: 480px){
+ @media (max-width: 480px){
   .header-phone{
     display: none;
   }
-  .brand-panel{
-    max-width: 10vmin;
-    max-height: 70px;
-  }
-  .slide-subtitle{
-    font-style: 32px !important;
-  }
  }
 
- @media (max-width: 600px){
+  @media (min-width: 992px) and (max-width: 1200px){
   .header-phone{
     display: none;
   }
-  .logo{
-    max-height: 54px;
-    max-width: 10vmin;
-    max-width: 10vmin;
-  }
-  .vertical-panel-title{
-    display: flex;
-    max-width: 10vmin;
-  }
-  .brand-panel{
-    max-width: 10vmin;
-    max-height: 70px;
-  }
-  .slide-subtitle{
-    font-style: 32px !important;
-  }
-  
  }
-
- @media (max-width: 769px){
-  .slide-number{
-    display: none;
-  }
-  .slide-subtitle{
-    font-size: 32px !important;
-    margin-left: 70px;
-    display: flex;
-    align-items: end;
-  }
-  .logo{
-    max-height: 54px;
-    max-width: 10vmin;
-    margin-left: -20px;
-  }
-  .brand-panel{
-    max-width: 10vmin;
-    max-height: 70px;
-  }
-  .vertical-panel{
-    max-width: 10vmin;
-  }
-  .main-header{
-    margin-right: 10vmin;
-  }
- }
- @media (max-height: 850px){
-  .vertical-panel-title{
-    max-width: 10vmin;
-  }
-  .logo{
-    max-width: 10vmin;
-  }
-  .brand-panel{
-    max-width: 10vmin;
-    max-height: 70px;
-  }
-  .slide-subtitle{
-    font-style: 32px !important;
-  }
-}
-@media (max-height: 850px){
-  .tp-caption{
-    padding: 0 20px;
-    text-align: right;
-  }
-  .slide-subtitle{
-    font-style: 32px !important;
-  }
-  .vertical-panel{
-    max-width: 10vmin;
-  }
-  .logo{
-    max-width: 10vmin;
-  }
-  .brand-panel{
-    max-width: 10vmin;
-    max-height: 70px;
-  }
-} */
-
-.social-list{
-  margin-bottom: 3.5vmin;
-}
-
-.social-list li{
-  margin-top: 3.8vmin;
-}
-
-.social-list .fa{
-  font-size: 2.4vmin;
-  color: #c5c4c2;
-}
-
-.social-list .fa:hover{
-  color:#abcb39;
-  text-decoration: none;
-}
 
 
 
@@ -812,8 +708,8 @@ label.error{
 
 .vertical-panel,
 .vertical-panel-content{
-  position: fixed;
-  width: 10vmin;
+  position: absolute;
+  width: 19.735vmin;
   left: 0;
   bottom: 0;
   text-align: center;
@@ -860,6 +756,29 @@ label.error{
   transform-origin: 0 0;
 }
 
+@media (max-height: 850px){
+  .vertical-panel-title{
+    display: none;
+  }
+}
+
+.social-list{
+  margin-bottom: 3.5vmin;
+}
+
+.social-list li{
+  margin-top: 3.8vmin;
+}
+
+.social-list .fa{
+  font-size: 2.4vmin;
+  color: #c5c4c2;
+}
+
+.social-list .fa:hover{
+  color:#abcb39;
+  text-decoration: none;
+}
 
 
 
@@ -1022,11 +941,11 @@ label.error{
   background-color: #fff;
 }
 
-/* @media (max-height: 320px ){
+@media (max-height: 320px ){
   .navbar-collapse{
     max-height: 240px;
   }
-} */
+}
 
 .navbar-toggle{
   padding: 0;
@@ -1315,7 +1234,7 @@ label.error{
 }
 
 .slide-subtitle{
-  font-size: 32px !important;
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -1417,7 +1336,7 @@ label.error{
   position: absolute;
   width: 1em;
   height: 1em;
-  background-color: #181b38;
+  background-color: #000038;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1592,7 +1511,7 @@ label.error{
   height: 9em;
   margin:-4.5em;
   border-radius: 50%;
-  background-color: #00003867
+  background-color: rgba(197,164,126,0.84);
   overflow: hidden;
   opacity: 0;
   -webkit-transform: scale(0.5);
@@ -2331,7 +2250,7 @@ img.mfp-img{
 
 .contact-info-content{
   padding: 5.5em 5.6em;
-  background-color:#000038
+  background-color:rgba(197,164,125, 0.95);
 }
 
 .contact-info-title{
@@ -2432,7 +2351,7 @@ img.mfp-img{
 
 
 
-/* @media (min-width: 768px){
+@media (min-width: 768px){
 
 
 
@@ -2467,7 +2386,6 @@ img.mfp-img{
 
   .entry{
     padding: 0 7.5em;
-    margin-left: 10%;
   }
 
   .col-about-spec{
@@ -2522,7 +2440,7 @@ img.mfp-img{
     padding-left: 15px;
   }
 
-} */
+}
 
 
 
@@ -2689,6 +2607,8 @@ img.mfp-img{
     bottom: auto;
   }
 }
+
+
 
 
 /*Mission*/
