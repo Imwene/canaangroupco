@@ -736,6 +736,40 @@ label.error{
     margin-right: 10vmin;
   }
  }
+ @media (max-height: 850px){
+  .vertical-panel-title{
+    max-width: 10vmin;
+  }
+  .logo{
+    max-width: 10vmin;
+  }
+}
+@media (max-height: 850px){
+  .vertical-panel{
+    max-width: 10vmin;
+  }
+  .logo{
+    max-width: 10vmin;
+  }
+}
+
+.social-list{
+  margin-bottom: 3.5vmin;
+}
+
+.social-list li{
+  margin-top: 3.8vmin;
+}
+
+.social-list .fa{
+  font-size: 2.4vmin;
+  color: #c5c4c2;
+}
+
+.social-list .fa:hover{
+  color:#abcb39;
+  text-decoration: none;
+}
 
 
 
@@ -793,40 +827,7 @@ label.error{
   transform-origin: 0 0;
 }
 
-@media (max-height: 850px){
-  .vertical-panel-title{
-    max-width: 10vmin;
-  }
-  .logo{
-    max-width: 10vmin;
-  }
-}
-@media (max-height: 850px){
-  .vertical-panel{
-    max-width: 10vmin;
-  }
-  .logo{
-    max-width: 10vmin;
-  }
-}
 
-.social-list{
-  margin-bottom: 3.5vmin;
-}
-
-.social-list li{
-  margin-top: 3.8vmin;
-}
-
-.social-list .fa{
-  font-size: 2.4vmin;
-  color: #c5c4c2;
-}
-
-.social-list .fa:hover{
-  color:#abcb39;
-  text-decoration: none;
-}
 
 
 /* 2.3 Navbar Desctop */
