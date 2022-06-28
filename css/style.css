@@ -693,6 +693,10 @@ label.error{
   .header-phone{
     display: none;
   }
+  .brand-panel{
+    max-width: 10vmin;
+    max-height: 70px;
+  }
  }
 
  @media (max-width: 600px){
@@ -707,6 +711,10 @@ label.error{
   .vertical-panel-title{
     display: flex;
     max-width: 10vmin;
+  }
+  .brand-panel{
+    max-width: 10vmin;
+    max-height: 70px;
   }
   
  }
@@ -744,6 +752,10 @@ label.error{
   .logo{
     max-width: 10vmin;
   }
+  .brand-panel{
+    max-width: 10vmin;
+    max-height: 70px;
+  }
 }
 @media (max-height: 850px){
   .vertical-panel{
@@ -751,6 +763,10 @@ label.error{
   }
   .logo{
     max-width: 10vmin;
+  }
+  .brand-panel{
+    max-width: 10vmin;
+    max-height: 70px;
   }
 }
 
