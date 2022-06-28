@@ -797,9 +797,15 @@ label.error{
   .vertical-panel-title{
     max-width: 10vmin;
   }
+  .logo{
+    max-width: 10vmin;
+  }
 }
 @media (max-height: 850px){
   .vertical-panel{
+    max-width: 10vmin;
+  }
+  .logo{
     max-width: 10vmin;
   }
 }
