@@ -702,10 +702,11 @@ label.error{
   .logo{
     max-height: 54px;
     max-width: 10vmin;
-    margin-left: -25px;
+    max-width: 10vmin;
   }
   .vertical-panel-title{
     display: flex;
+    max-width: 10vmin;
   }
   
  }
