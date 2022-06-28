@@ -732,7 +732,7 @@ label.error{
   .logo{
     max-height: 54px;
     max-width: 10vmin;
-    margin-left: 5px;
+    margin-left: -20px;
   }
   .brand-panel{
     max-width: 10vmin;
