@@ -1022,11 +1022,11 @@ label.error{
   background-color: #fff;
 }
 
-@media (max-height: 320px ){
+/* @media (max-height: 320px ){
   .navbar-collapse{
     max-height: 240px;
   }
-}
+} */
 
 .navbar-toggle{
   padding: 0;
@@ -2432,7 +2432,7 @@ img.mfp-img{
 
 
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
 
 
 
@@ -2522,7 +2522,7 @@ img.mfp-img{
     padding-left: 15px;
   }
 
-}
+} */
 
 
 
