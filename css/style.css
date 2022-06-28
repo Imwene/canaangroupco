@@ -694,6 +694,22 @@ label.error{
     display: none;
   }
  }
+
+ @media (max-width: 600px){
+  .header-phone{
+    display: none;
+  }
+  .logo{
+    max-height: 54px;
+    max-width: 10vmin;
+    margin-left: -25px;
+  }
+  .vertical-panel-title{
+    display: flex;
+  }
+  
+ }
+
  @media (max-width: 769px){
   .slide-number{
     display: none;
@@ -719,20 +735,6 @@ label.error{
   .main-header{
     margin-right: 10vmin;
   }
- }
- @media (min-width: 600px){
-  .header-phone{
-    display: none;
-  }
-  .logo{
-    max-height: 54px;
-    max-width: 10vmin;
-    margin-left: -25px;
-  }
-  .vertical-panel-title{
-    display: flex;
-  }
-  
  }
 
 
@@ -793,12 +795,12 @@ label.error{
 
 @media (max-height: 850px){
   .vertical-panel-title{
-    display: none;
+    max-width: 10vmin;
   }
 }
 @media (max-height: 850px){
   .vertical-panel{
-    display: none;
+    max-width: 10vmin;
   }
 }
 
