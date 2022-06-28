@@ -709,8 +709,8 @@ label.error{
 
 .vertical-panel,
 .vertical-panel-content{
-  position: absolute;
-  width: 19.735vmin;
+  position: fixed;
+  max-width: 10vmin;
   left: 0;
   bottom: 0;
   text-align: center;
