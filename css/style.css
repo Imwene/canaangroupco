@@ -689,7 +689,7 @@ label.error{
   top:5.9vmin;
 }
 
- @media (max-width: 480px){
+ /* @media (max-width: 480px){
   .header-phone{
     display: none;
   }
@@ -784,7 +784,7 @@ label.error{
     max-width: 10vmin;
     max-height: 70px;
   }
-}
+} */
 
 .social-list{
   margin-bottom: 3.5vmin;
