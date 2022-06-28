@@ -767,6 +767,10 @@ label.error{
   }
 }
 @media (max-height: 850px){
+  .tp-caption{
+    padding: 0 20px;
+    text-align: right;
+  }
   .slide-subtitle{
     font-style: 16px;
   }
