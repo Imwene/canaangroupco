@@ -2490,6 +2490,7 @@ img.mfp-img{
     position: absolute;
     left: -50000px;
     top: -50000px;
+    max-height: 10vmin;
   }
 
 
