@@ -765,7 +765,7 @@ label.error{
 
 @media (max-height: 850px){
   .vertical-panel-title{
-    display: none;
+    display: flex;
   }
 }
 
