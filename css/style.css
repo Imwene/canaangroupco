@@ -613,8 +613,8 @@ label.error{
   z-index: 4;
   left: 0;
   top:0;
-  width: 39.47vmin;
-  height: 40.7vmin;
+  width: 26.47vmin;
+  height: 30.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #f6f5f3;
   text-align: center;
@@ -660,7 +660,7 @@ label.error{
 }
 
 .slide-number .current-number{
-  font-size: 8vmin;
+  font-size: 4vmin;
   letter-spacing: 0.1em;
   line-height: 1;
   position: relative;
@@ -670,7 +670,7 @@ label.error{
   display: inline-block;
   position: relative;
   top:-3px;
-  font-size: 2vmin;
+  font-size: 1vmin;
   letter-spacing: 0.1em;
   color: #3d3d3d;
   vertical-align: top;
