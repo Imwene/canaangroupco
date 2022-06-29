@@ -698,11 +698,17 @@ label.error{
   .header-phone{
     display: none;
   }
+  .logo{
+    max-height: 10vmin;
+  }
  }
 
   @media (min-width: 992px) and (max-width: 1200px){
   .header-phone{
     display: none;
+  }
+  .logo{
+    max-height: 10vmin;
   }
  }
 
@@ -766,6 +772,9 @@ label.error{
 @media (max-height: 850px){
   .vertical-panel-title{
     display: flex;
+  }
+  .logo{
+    max-height: 10vmin;
   }
 }
 
@@ -951,6 +960,9 @@ label.error{
 @media (max-height: 320px ){
   .navbar-collapse{
     max-height: 240px;
+  }
+  .logo{
+    max-height: 10vmin;
   }
 }
 
@@ -2359,6 +2371,9 @@ img.mfp-img{
 
 
 @media (min-width: 768px){
+  .logo{
+    max-height: 10vmin;
+  }
 
 
 
@@ -2456,6 +2471,9 @@ img.mfp-img{
 
 
 @media (min-width: 992px){
+  .logo{
+    max-height: 10vmin;
+  }
 
 
 
@@ -2490,7 +2508,6 @@ img.mfp-img{
     position: absolute;
     left: -50000px;
     top: -50000px;
-    max-height: 10vmin;
   }
 
 
@@ -2561,6 +2578,9 @@ img.mfp-img{
 
 
 @media (min-width: 1200px){
+  .logo{
+    max-height: 10vmin;
+  }
 
 
    html{
@@ -2595,6 +2615,9 @@ img.mfp-img{
 
 
   @media (max-height: 480px){
+    .logo{
+      max-height: 10vmin;
+    }
 
 
 
