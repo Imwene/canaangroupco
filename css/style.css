@@ -614,7 +614,7 @@ label.error{
   left: 0;
   top:0;
   width: 26.47vmin;
-  height: 30.7vmin;
+  height: 18.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #f6f5f3;
   text-align: center;
@@ -657,6 +657,7 @@ label.error{
   font-family: 'Oswald', sans-serif;
   margin-top: 8vmin;
   position: relative;
+  display: none;
 }
 
 .slide-number .current-number{
