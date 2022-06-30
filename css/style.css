@@ -2650,14 +2650,7 @@ a:hover {
 }
 
 /* Hero Unit ----------------------*/
-.hero-unit {
-  height: 80vh;
-  background: no-repeat center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
+
 .hero-unit h1,
 .hero-unit h2,
 .hero-unit h3,
@@ -2707,7 +2700,7 @@ a:hover {
 
 /* Card design - back */
 .panel i {
-  font-size: 2rem;
+  font-size: 3rem;
   display: block;
   float: left;
   width: 20%;
@@ -2779,6 +2772,7 @@ a:hover {
   -ms-transform: perspective(1000) rotateY(0deg);
   -o-transform: perspective(1000) rotateY(0deg);
   transform: perspective(1000) rotateY(0deg);
+  overflow:scroll;
 }
 
 .flip-cards .card-front,
@@ -2804,7 +2798,7 @@ a:hover {
   -ms-transform: perspective(1000) rotateY(0);
   -o-transform: perspective(1000) rotateY(0);
   transform: perspective(1000) rotateY(0);
-  z-index: 900;
+  z-index: 0;
 }
 
 .flip-cards .card-back {
@@ -2813,7 +2807,7 @@ a:hover {
   -ms-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
-  z-index: 800;
+  z-index: 0;
 }
 
 /* Button Card Colors */
@@ -2830,15 +2824,15 @@ a:hover {
 
 /* First button color */
 .flip-cards li:first-child > .button {
-  background-color: rgba(182, 177, 177, 0.363);
+  background-color: #ABCB39;
 }
 .flip-cards li:first-child > .panel {
-  background-color: rgb(52, 122, 71);
+  background-color: #3A7D44;
 }
 
 /* Second button color */
 .flip-cards li:nth-child(2) > .button {
-  background-color: rgba(182, 177, 177, 0.363);
+  background-color: #000038;
 }
 .flip-cards li:nth-child(2) > .panel {
   background-color: rgba(109, 193, 202, 1);
@@ -2846,7 +2840,7 @@ a:hover {
 
 /* Third button color */
 .flip-cards li:nth-child(3) > .button {
-  background-color: rgba(182, 177, 177, 0.363);
+  background-color: #7798AB
 }
 .flip-cards li:nth-child(3) > .panel {
   background-color: rgba(211, 81, 45, 1);
@@ -2862,7 +2856,7 @@ a:hover {
 
 /* Fifth button color */
 .flip-cards li:nth-child(5) > .button {
-  background-color: rgba(182, 177, 177, 0.363);
+  background-color: 3A7D44;
 }
 .flip-cards li:nth-child(5) > .panel {
   background-color: rgba(75, 135, 150, 1);
@@ -2870,7 +2864,7 @@ a:hover {
 
 /* Sixth (last) button color */
 .flip-cards li:last-child > .button {
-  background-color: rgba(182, 177, 177, 0.363);
+  background-color: 7798AB;
 }
 .flip-cards li:last-child > .panel {
   background-color: rgba(100, 66, 87, 1);
@@ -2885,8 +2879,9 @@ a:hover {
 		height: 800px;
 	}
 	.flip-cards li {
-		width: 50%;
-		/*height: 160px;*/
+		width: 100%;
+		height: 25vh;
+    z-index: 0;
 	}
 }
 @media only screen and ( max-width: 30em ) {
@@ -2895,6 +2890,11 @@ a:hover {
 	}
 	.hero-unit h3 {
 		font-size: 1.125rem;
+	}
+  .flip-cards li {
+		width: 100%;
+		height: 25vh;
+    z-index: 0;
 	}
 }
 @media only screen and ( max-width: 25em ) {
@@ -2921,11 +2921,12 @@ a:hover {
 	}
 	.flip-cards li {
 		width: 100%;
-		font-size: 1.35rem;
-		height: 120px;
+		height: 25vh;
+    z-index: 0;
 	}
 	.flip-cards .panel p {
-		display: none;	
+		display: flex;
+    position: relative;	
 	}
 	.flip-cards .panel small {
 		margin: 0;
