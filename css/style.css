@@ -2841,7 +2841,7 @@ a:hover {
 
 /* Third button color */
 .flip-cards li:nth-child(3) > .button {
-  background-color: #7798AB
+  background-color: #4a4c4d
 }
 .flip-cards li:nth-child(3) > .panel {
   background-color: rgba(211, 81, 45, 1);
